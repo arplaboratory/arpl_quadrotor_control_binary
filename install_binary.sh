@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Installing active_tracking branch"
+
 echo "Installing quadrotor_msgs"
 sudo dpkg --install ros-noetic-quadrotor-msgs_1.0.0-0focal_amd64.deb
 

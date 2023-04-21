@@ -5,8 +5,8 @@ Binary deb files for arpl_quadrotor_control package which can be installed witho
 
 The installation of packages need to be done in a sequence so it will fullfill dependency. To make it easy just run the bash script provided in repository.
 
-  chmod +x install_binary.sh
-  ./install_binary.sh
+    chmod +x install_binary.sh
+    ./install_binary.sh
   
 If you want to install each package separately, install them one-by-one using dpkg --install command 
 

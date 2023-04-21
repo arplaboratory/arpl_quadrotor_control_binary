@@ -7,3 +7,8 @@ The installation of packages need to be done in a sequence so it will fullfill d
 
   chmod +x install_binary.sh
   ./install_binary.sh
+  
+If you want to install each package separately, install them one-by-one using dpkg --install command 
+
+    sudo dpkg --install ros-<ubuntu_version>-<package_name>.deb
+    
